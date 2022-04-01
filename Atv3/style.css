@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900");
+
+body {
+  margin: 0;
+  font-family: Poppins;
+}
+
+.header {
+  border-bottom: 2px solid #32b9cd;
+    background-color: #000000;
+    
+}
+.container {
+  color: #32b9cd;
+  display: flex;
+  justify-content: space-between;
+}
+.container ul {
+  color: #e3b062;
+  display: flex;
+  width: 600px;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.header .container {
+  justify-content: space-around;
+  align-items: center;
+}
+ul a {
+  text-decoration: none;
+  color: #e3b062;
+}
+
+.agora {
+  font-weight: 600;
+}
+
+/*BANNER*/
+.banner {
+  background-image: url("images/bg-jelly-fish-para-home.png");
+  height: 600px;
+  background-size: cover;     
+
+}
+.banner .container{
+height: 600px;
+align-items: center;
+}
+
+.banner p{
+color: #fff;
+margin: 0;
+padding: 0;
+font-size: 36px;
+width: 280px;
+margin-left: 350px;
+}
+.banner span{
+font-weight: 800;
+}
+
+
+/*LOGIN*/
+
+.banner .card {
+  background-color: #fff;
+  height: 560px;
+  width: 590px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  
+}
+
+.card {
+  margin-top: 15px;
+}
+.btn {
+  font-family: Poppins;
+  margin-top: 10px;
+  border: 0;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #fff;
+  padding: 5px 10px;
+  background-color: #e75459;
+  cursor: pointer;
+  height: 35px;
+  width: 150px;
+}
+
+.ipt {
+  height: 30px;
+  width: 400px;
+  border: 1px solid #e75459;
+  border-radius: 4px;
+}
+h4{
+    
+
+}
+
